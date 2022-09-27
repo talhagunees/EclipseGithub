@@ -6,13 +6,15 @@ public class main1 {
 		System.out.println("HELLO WORLD!");
 		
 		//değişken isimlendirmeleri Java'da camelCase yazılır
-		//String metinsel veri
+		//String metinsel veri değişkeni
+		//Üzerinde işlem yapmadığın veriler String olarak yazılır
 		//Her kod ; ile biter
 		String ortaMetin = "İlginizi Çekebilir";
 		String altMetin = "Vade Süresi";
 		
 		//Referans verdiğin değişkeni çift tırnak olmadan yaz
 		System.out.println(altMetin);
+		System.out.println(ortaMetin);
 		
 		//integer tam sayı değişkeni
 		int vade = 12;
@@ -45,14 +47,15 @@ public class main1 {
 			System.out.println(okYonu);
 			
 		}
-		//array	
+		//array
 		//köşeli parantez görürsen o bir liste
 		String[] krediler = {"Hızlı Kredi" , "Maaşını Halkbanktan" , "Mutlu Emekli"};
 		
         //kodlamada saymaya 0'dan başlanır
-		//for=dögü, bir şeyi bir şarta göre tekrarla
+		//for=döngü, bir şeyi bir şarta göre tekrarla
 		for (int i = 0; i < krediler.length; i++) {
 			System.out.println(krediler[i]);
+		
 		}
 	}
 

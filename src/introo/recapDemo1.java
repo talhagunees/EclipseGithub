@@ -3,7 +3,7 @@ package introo;
 public class recapDemo1 {
 
 	public static void main(String[] args) {
-		int sayı1 = 224;
+		int sayı1 = 22;
 		int sayı2 = 25;
 		int sayı3 = 26;
 		int enBuyuk = sayı1;
@@ -14,7 +14,7 @@ public class recapDemo1 {
 		if (enBuyuk<sayı3) {
 			enBuyuk = sayı3;
 				}
-		System.out.println(enBuyuk); 	
+		System.out.println(enBuyuk);
 
 	}
 
